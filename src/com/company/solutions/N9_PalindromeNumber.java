@@ -12,7 +12,7 @@ public class N9_PalindromeNumber {
     public boolean isPalindromeTrueVersion(int x) {
         int reverted = 0;
         int temp = x;
-        if (x < 0 || (x != 10 && x % 10 == 0)) {
+        if (x < 0 || (x != 0 && x % 10 == 0)) {
             return false;
         }
         while (temp > 0) {
