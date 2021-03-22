@@ -4,7 +4,25 @@ package com.company.solutions;
 Given the root node of a binary search tree, return the sum of values of all nodes with a value in the range [low, high].
 */
 
-import com.company.solutions.utils.TreeNode;
+
+class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
 
 public class N938_RangeSumOfBST {
     public int rangeSumBST(TreeNode root, int low, int high) {
