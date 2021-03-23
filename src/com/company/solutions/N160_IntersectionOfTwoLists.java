@@ -1,16 +1,7 @@
 package com.company.solutions;
 
-import java.util.List;
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
-          val = x;
-          next = null;
-      }
- }
-
+import com.company.solutions.utils.ListNode;
 
 public class N160_IntersectionOfTwoLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
