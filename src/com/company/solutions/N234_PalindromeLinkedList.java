@@ -40,7 +40,7 @@ public class N234_PalindromeLinkedList {
         curr.next = prev;
         return curr;
     }
-    // My solution with half reversing
+
     public boolean isPalindrome(ListNode head) {
         if (head.next == null) {
             return true;
