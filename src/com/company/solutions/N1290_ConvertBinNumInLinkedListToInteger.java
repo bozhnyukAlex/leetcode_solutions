@@ -3,6 +3,8 @@ package com.company.solutions;
 import com.company.solutions.utils.ListNode;
 
 public class N1290_ConvertBinNumInLinkedListToInteger {
+
+
     public int length(ListNode head) {
         ListNode ph = head;
         int res = 0;

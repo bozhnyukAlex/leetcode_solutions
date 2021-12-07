@@ -15,6 +15,7 @@ public class N876_MiddleOfLinkedList {
                 return head;
             }
         }
+        int a = 5;
         return head;
     }
 }
